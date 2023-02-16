@@ -1,0 +1,154 @@
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    color: #303030;
+}
+h2 {
+    font-size: 46px;
+    color: #303030;
+}
+h3 {
+    font-size: 34px;
+    color: #303030;
+}
+h4 {
+    font-size: 24px;
+    color: #303030;
+}
+h5 {
+    font-size: 18px;
+    color: #303030;
+}
+h6 {
+    font-size: 16px;
+    color: #303030;
+}
+p {
+    font-weight: 400;
+    color: #303030;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.wrapper {
+    background-color: #efefef;
+}
+
+.header {
+    padding: 100px 0 30px 0;
+}
+.header__wrapper {
+
+}
+.header__content {
+
+}
+.header__title {
+    text-align: center;
+    padding-bottom: 26px;
+    font-weight: 400;
+}
+.header__subtitle {
+    text-align: center;
+    padding-bottom: 26px;
+    font-weight: 600;
+}
+.header__description {
+    border: 1px solid #E6E6E6;
+    padding: 5px;
+}
+
+.hero {
+
+}
+.hero__wrapper {
+    border: 1px solid #E6E6E6;
+    padding: 5px 5px;
+}
+.hero__images {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.hero__img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.hero__content {
+    background-color: #DEDEDE;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.biography {
+    padding: 30px 0;
+}
+
+.biography__header {
+    padding-bottom: 16px;
+}
+.biography__list {
+    list-style-type:disc ;
+    padding-left: 20px;
+}
+.biography__list-item {
+    padding-bottom: 6px;
+}
+.footer {
+    padding-bottom: 50px;
+}
+.footer__description {
+    font-style: italic;
+    text-align: center;
+}
